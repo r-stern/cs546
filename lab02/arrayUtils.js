@@ -117,6 +117,11 @@ const isEqual = function isEqual(arrayOne, arrayTwo) {
 				return false;
 			}
 		}
+		for (var j = 0; j < arrayOne.length; j++) {
+			if (typeof(arrayOne[j]) != "number" || typeof(arrayTwo[j]) != "number") {
+				return false;
+			}
+		}
 		return true;
 	}
 	else {
@@ -149,7 +154,6 @@ const isEqual = function isEqual(arrayOne, arrayTwo) {
 //console.log(range('undefined', 12321)); // must have a value
 //console.log(range(-1, 23)); // end arg must be >0
 
-
 //console.log(countElements(["sicheng", "sicheng", "wayv", "wayv", "wayv", "ten", "nct"])); // {"sicheng": 2, "wayv": 3, "ten": 1, "nct": 1}
 //console.log(countElements(["a", "a"])); // { "a": 2 }
 //console.log(countElements([])); //{ 0 }
@@ -163,6 +167,8 @@ const isEqual = function isEqual(arrayOne, arrayTwo) {
 //console.log(isEqual([1], ['undefined'])) //a2 doesnt exist
 //console.log(isEqual("iiiii", [1])); // a1 must be array
 //console.log(isEqual([1], "iiiii")); //a2 must be array
+
+//console.log(isEqual([1,2,3], [1,'2',3]))
 
 module.exports = {
 	head,
