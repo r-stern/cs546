@@ -1,0 +1,5 @@
+{
+	"mongoConfig": {
+		"serverUrl": "mongodb://localhost:27017/",
+		"database": "Rachel_Stern_lab4"
+	}
