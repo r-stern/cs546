@@ -1,0 +1,15 @@
+{
+  "name": "cs-546-lab06",
+  "version": "1.0.0",
+  "description": "lab 6",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "rachel stern 10413057",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
