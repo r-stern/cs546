@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js"
   },
-  "author": "rachel stern 10413057",
+  "author": "rachel stern",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.18.0"
